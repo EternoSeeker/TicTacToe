@@ -1,5 +1,5 @@
 // document.querySelector("body").classList.add("red-background");
-
+// just a comment
 const wins = [
   [0, 1, 2],
   [0, 3, 6],
