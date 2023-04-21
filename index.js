@@ -1,5 +1,4 @@
 // document.querySelector("body").classList.add("red-background");
-// just a comment lol mm
 const wins = [
   [0, 1, 2],
   [0, 3, 6],
@@ -40,7 +39,6 @@ const checkWin = () => {
       } else if (boxSymbol[combination[0]].innerText === "O") {
         owon++;
       }
-
       let xScore = document.querySelector(".x-won");
       xScore.innerText = xwon;
       let oScore = document.querySelector(".o-won");
@@ -56,15 +54,8 @@ Array.from(boxes).forEach((element) => {
   element.addEventListener("click", () => {
     if (boxSymbol.innerText === "" && gameOver === false) {
       boxSymbol.innerText = currentTurn;
-
       changeTurn();
-
       checkWin();
     }
   });
 });
-//Array.from(boxes).forEach((ele) => {
-//  ele.addEventListener("click", (e) => {
-//    alert(e.target.getAttribute("id"));
-//  });
-//});
