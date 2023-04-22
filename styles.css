@@ -166,16 +166,16 @@
 	font-weight: bold;
 }
 
-.bottom-div-1 {
-	background-color: rgb(0, 255, 255);
+.player-1 {
+	color: rgb(127, 255, 253);
 }
 
-.bottom-div-2 {
-	background-color: #b9afaf;
+.player-2 {
+	color: #f86cff;
 }
 
-.bottom-div-3 {
-	background-color: orange;
+.player-3 {
+	color: #fff;
 }
 
 .player-size {
